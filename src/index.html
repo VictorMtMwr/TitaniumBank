@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanium Bank</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Titanium Bank</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+        <div class="buttons">
+            <button class = "btn btn-orange"onclick="window.location.href='templates/login.html'">Iniciar sesión</button>
+            <button class="btn btn-green" onclick="window.location.href='#contacto'">Encuéntranos</button>
+            <button class="btn btn-green" onclick="window.location.href='#servicios'">Transparencia</button>
+            <button class="btn btn-green">Consumidor</button>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="gallery-container">
+            <h1>Portal Transaccional Personas</h1>
+            <p>Una conexión directa con tu Banco en el momento que lo necesites.</p>
+            <div id="gallery"></div>
+        </div>
+    </section>
+    
+
+    <section id="servicios" class="section">
+        <h2>Nuestros Servicios</h2>
+        <p class="servicios-parrafo">En nuestro banco, ofrecemos una amplia gama de servicios financieros diseñados para brindarte comodidad, 
+            seguridad y eficiencia. Desde cuentas de ahorro y corriente hasta préstamos personales y empresariales,
+            tarjetas de crédito y débito, así como inversiones y seguros, ponemos a tu disposición soluciones
+             innovadoras para gestionar tu dinero de manera fácil y confiable. Además, contamos con una plataforma digital
+             intuitiva y un servicio de atención al cliente siempre disponible para acompañarte en cada paso.
+              ¡Descubre todo lo que podemos hacer por ti!
+        </p>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p class="contacto-parrafo">📍 Banco Titanio
+            🏢 Dirección: Av. Fortaleza 789, Distrito Financiero, Ciudad Capital
+            📞 Teléfono: +34 900 987 654
+            📧 Correo electrónico: contacto@bancotitanio.com
+            🌐 Sitio web: www.bancotitanio.com
+            🕒 Horario de atención: Lunes a Viernes de 8:00 a.m. a 6:00 p.m. | Sábados de 9:00 a.m. a 1:00 p.m.  
+            💪 Sólido. Seguro. Imparable. En Banco Titanio, tu dinero está en las mejores manos. ¡Contáctanos y fortalece tu futuro financiero!</p>
+    </section>
+
+    <section id="faq" class="section">
+        <h2>Preguntas Frecuentes</h2>
+        <p class="faq-parrafo" >
+            🔹 ¿Cómo puedo abrir una cuenta en Banco Titanio?
+            Puedes abrir una cuenta en línea a través de nuestra plataforma digital o visitando una de nuestras sucursales con tu documento de identidad y un comprobante de domicilio.
+            
+            🔹 ¿Qué tipos de cuentas ofrecen?
+            Disponemos de cuentas de ahorro, cuentas corrientes, cuentas empresariales y cuentas en moneda extranjera, todas con beneficios exclusivos.
+            
+            🔹 ¿Cuáles son los requisitos para solicitar un préstamo?
+            Debes ser mayor de edad, presentar tu documento de identidad, comprobante de ingresos y cumplir con nuestra evaluación crediticia.
+            
+            🔹 ¿Puedo realizar transferencias internacionales?
+            Sí, ofrecemos transferencias nacionales e internacionales seguras y rápidas a través de nuestra banca en línea y sucursales.
+            
+            🔹 ¿Cómo recupero el acceso si olvido mi clave?
+            Puedes restablecer tu clave en nuestra web o app móvil seleccionando "Olvidé mi contraseña" y siguiendo los pasos de verificación.
+            
+            🔹 ¿Qué hacer si detecto un cargo no reconocido en mi cuenta?
+            Comunícate de inmediato con nuestro servicio de atención al cliente al +34 900 987 654 o escríbenos a fraudes@bancotitanio.com para iniciar una investigación.
+            
+            🔹 ¿Tienen servicio de atención 24/7?
+            Sí, nuestra banca en línea y aplicación móvil están disponibles 24/7. Para consultas o emergencias, nuestro servicio de atención telefónica opera las 24 horas.
+            
+            🔹 ¿Cómo puedo contactar con atención al cliente?
+            Puedes llamarnos al +34 900 987 654, escribirnos a contacto@bancotitanio.com o visitar cualquier sucursal.
+            
+            Si tienes más preguntas, ¡contáctanos! Estamos aquí para ayudarte. 💪🔥</p>
+    </section>
+
+    <footer>
+        <p>Titanium Bank - Todos los derechos reservados</p>
+    </footer>
+    <div class="progress-circle-container">
+        <svg class="progress-circle" width="100" height="100">
+            <circle class="progress-circle-bg" cx="50" cy="50" r="45"></circle>
+            <circle class="progress-circle-fg" cx="50" cy="50" r="45"></circle>
+            <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="progress-text">0%</text>
+        </svg>
+    </div>
+    <script src="static/js/script1.js"></script>
+</body>
+</html>

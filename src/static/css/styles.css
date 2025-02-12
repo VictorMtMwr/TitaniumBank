@@ -1,0 +1,289 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
+}
+body.fade-out {
+    opacity: 0;
+}
+.login-container {
+    background: #ffffff;
+    width: 310px;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #286ed6;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #008000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #db4343;
+}
+
+#teclado {
+    border: 3px solid #008000;
+    width: 220px;
+    height: 280px;
+    text-align: center;
+    background: orange;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.tecla {
+    width: 60px;
+    height: 60px;
+    background: #008000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+}
+
+.tecla:hover {
+    background: #db4343;
+    transform: scale(1.1);
+}
+
+.borrar {
+    width: 135px;
+    background: #db4343;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    scroll-behavior: smooth;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo h1 {
+    color: #008000;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #008000;
+}
+
+/* Botones */
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+.btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-orange {
+    background-color: orange;
+    color: white;
+}
+
+.btn-green {
+    background-color: green;
+    color: white;
+}
+
+/* Sección Hero */
+.hero {
+    background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Secciones */
+.section {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#servicios {
+    background: #eaf5ea;
+    text-align: center;
+}
+.servicios-parrafo {
+    text-align: justify;
+    max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto;
+}
+
+#contacto {
+    background: #f0f0f0;
+}
+.contacto-parrafo {
+    text-align: justify;
+    max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto;
+}
+.contacto-parrafo img[alt="emoji"]::after {
+    content: "\A"; /* Añade un salto de línea */
+    white-space: pre; /* Asegura que el salto de línea se respete */
+}
+
+#faq {
+    background: #eaeaea;
+}
+.faq-parrafo {
+    text-align: justify;
+    max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto;
+}
+.faq-parrafo img[alt="emoji"]::after {
+    content: "\A"; /* Añade un salto de línea */
+    white-space: pre; /* Asegura que el salto de línea se respete */
+}
+
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background: #008000;
+    color: white;
+    padding: 10px 0;
+}
+
+.gallery-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#gallery {
+    width: 150vh;
+    height: 500px; /* Ajusta la altura según sea necesario */
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #eaf5ea;
+    border-radius: 15px;
+    transition: background-image 1s ease-in-out;
+}
+
+.gallery-item {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #eaf5ea;
+    border-radius: 5px;
+}
+.progress-circle-container {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.progress-circle {
+    transform: rotate(-90deg);
+}
+
+.progress-circle-bg {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 10;
+}
+
+.progress-circle-fg {
+    fill: none;
+    stroke: #008000;
+    stroke-width: 10;
+    stroke-dasharray: 283; /* Circunferencia del círculo (2 * PI * r) */
+    stroke-dashoffset: 283; /* Inicialmente, el círculo está vacío */
+    transition: stroke-dashoffset 0.25s ease-in-out;
+}
+
+.progress-text {
+    font-size: 18px;
+    fill: #000;
+    font-weight: bold;
+}
